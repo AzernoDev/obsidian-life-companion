@@ -158,11 +158,11 @@
 .border-background-modifier-border {
     border-color: var(--background-modifier-border)
 }
-.bg-background-modifier-error {
-    background-color: var(--background-modifier-error)
+.bg-background-modifier-error-rgb\/10 {
+    background-color: rgba(var(--background-modifier-error-rgb),0.1)
 }
-.bg-background-modifier-success {
-    background-color: var(--background-modifier-success)
+.bg-background-modifier-success-rgb\/10 {
+    background-color: rgba(var(--background-modifier-success-rgb),0.1)
 }
 .bg-background-primary {
     background-color: var(--background-primary)
@@ -173,26 +173,11 @@
 .bg-interactive-accent {
     background-color: var(--interactive-accent)
 }
-.bg-background-modifier-error-rgb\/50 {
-    background-color: rgba(var(--background-modifier-error-rgb),0.5)
-}
-.bg-background-modifier-error-rgb\/10 {
-    background-color: rgba(var(--background-modifier-error-rgb),0.1)
-}
-.bg-background-modifier-success-rgb\/10 {
-    background-color: rgba(var(--background-modifier-success-rgb),0.1)
-}
 .p-4 {
     padding: 1rem
 }
 .p-8 {
     padding: 2rem
-}
-.p-2 {
-    padding: 0.5rem
-}
-.p-3 {
-    padding: 0.75rem
 }
 .px-4 {
     padding-left: 1rem;
@@ -202,17 +187,11 @@
     padding-top: 0.5rem;
     padding-bottom: 0.5rem
 }
-.text-ui-larger {
-    font-size: var(--font-ui-larger)
-}
 .text-ui-medium {
     font-size: var(--font-ui-medium)
 }
 .text-ui-small {
     font-size: var(--font-ui-small)
-}
-.font-bold {
-    font-weight: var(--font-bold)
 }
 .font-medium {
     font-weight: var(--font-medium)

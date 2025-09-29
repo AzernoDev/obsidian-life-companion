@@ -59,7 +59,7 @@ export default class MyPlugin extends Plugin {
 		}
 	}
 
-	onunload() {}
+	onunload() { }
 
 	async loadSettings() {
 		this.settings = Object.assign(
